@@ -1,0 +1,54 @@
+.skills {
+  padding: 20px 50px 20px 50px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Space Mono", monospace;
+  background-color: transparent;
+  border: 5px solid whitesmoke;
+  /* border-radius: 0px 0px 10px 10px; */
+}
+
+h6 {
+  font-size: 12px;
+}
+
+.skillList {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.skillContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  line-height: 0.3;
+}
+
+@media only screen and (max-width: 700px) {
+  .skillList {
+    display: block;
+    margin-top: 20px;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .type {
+    margin: 0px;
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .skills {
+    border: none;
+    padding: 10px 25px 20px 25px;
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 8px;
+  }
+  .skillContainer > h6 {
+    margin: 0px;
+    padding: 0px;
+  }
+}

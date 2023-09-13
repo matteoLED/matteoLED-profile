@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "number": "Project 1",
+      "title": "Game Dice",
+      "description": "A dice game built with react.js.",
+      "image": "example",
+      "github": "https://github.com/matteoLED/game-dice",
+      "url": "https://developpement--superb-gumption-bbd669.netlify.app/",
+      "stack": ["react.js", "typescript"]
+    },
+    {
+      "number": "Project 2",
+      "title": "Quiz Js",
+      "description": "A quiz app built with vanilla javascript.",
+      "image": "example",
+      "github": "https://github.com/matteoLED/quiz-js",
+      "url": "https://matteoled.github.io/quiz-js/",
+      "stack": ["vanilla", "javascript"]
+    }
+  ]
+}
