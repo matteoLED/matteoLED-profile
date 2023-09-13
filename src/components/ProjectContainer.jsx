@@ -13,7 +13,7 @@ const ProjectContainer = () => {
       <a
         style={{ textDecoration: "none" }}
         href="mailto:matteoledee.pro@gmail.com"
-        target="_blank"
+        target="_blank" rel="noreferrer"
       >
         <h6 style={{ color: "#f5f5f5" }}>matteoledee.pro@gmail.com</h6>
       </a>
