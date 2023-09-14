@@ -13,4 +13,4 @@ I built this portfolio to showcase my passion for technology and computer scienc
 
 Feel free to explore my projects and repositories. If you have any questions or would like to collaborate, don't hesitate to reach out. Thanks for visiting!
 
-![Portfolio Preview](https://matteoled.github.io/matteoLED-profile/)
+- GitHub Pages: [My Portfolio](https://matteoled.github.io/matteoLED-profile/)
