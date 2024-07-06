@@ -3,7 +3,6 @@ import "../components/Project.css";
 import github from "../github.png";
 
 const Project = ({ item }) => {
-  console.log(item);
   return (
     <div className="project">
       <div className="titleAndStack">

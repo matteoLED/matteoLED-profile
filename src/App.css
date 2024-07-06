@@ -9,7 +9,6 @@
     overflow: hidden;
     margin-top: 50px;
     padding-top: 50px;
-    
 }
 
 button {
@@ -22,8 +21,13 @@ button {
     padding: 10px 20px 10px 20px;
     cursor: pointer;
     letter-spacing: 0px;
-    transition: color 1s, background-color 0.5s, padding 1s, letter-spacing 1s,
+    transition:
+        color 1s,
+        background-color 0.5s,
+        padding 1s,
+        letter-spacing 1s,
         border-color ease 0.5s;
+    border-radius: 10px;
 }
 
 button:hover {
@@ -31,7 +35,11 @@ button:hover {
     color: white;
     background-color: black;
     letter-spacing: 2px;
-    transition: background-color 0.5s, padding 1s, letter-spacing 1s, color 1s,
+    transition:
+        background-color 0.5s,
+        padding 1s,
+        letter-spacing 1s,
+        color 1s,
         border-color ease 0.5s;
 }
 

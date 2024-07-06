@@ -1,17 +1,6 @@
 {
-  "proficient": [
-    "typescript",
-    "javascript",
-    "mongodb",
-   "flutter"
-  ],
-  "experience": [
-    "agile",
-    "node.js",
-    "python",
-    "next.js",
-    "go"
-  ],
-  "perfect_stack": ["flutter", "typescript","firebase"],
+  "proficient": ["typescript", "javascript", "mongodb", "flutter"],
+  "experience": ["agile", "node.js", "python", "next.js", "go", "rust"],
+  "perfect_stack": ["flutter", "typescript", "firebase"],
   "bonus": ["just work with passion"]
 }

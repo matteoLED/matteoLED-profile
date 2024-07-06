@@ -2,6 +2,24 @@
   "projects": [
     {
       "number": "Project 1",
+      "title": "Rust Cpu Monitor",
+      "description": "A simple cpu monitor built with rust.",
+      "image": "example",
+      "github": "https://github.com/matteoLED/rust-cpu-monitor",
+      "url": "",
+      "stack": ["rust"]
+    },
+    {
+      "number": "Project 2",
+      "title": "Go Cpu Monitor",
+      "description": "A simple cpu monitor built with go.",
+      "image": "example",
+      "github": "https://github.com/matteoLED/go-cpu-monitor",
+      "url": "",
+      "stack": ["go"]
+    },
+    {
+      "number": "Project 3",
       "title": "Game Dice",
       "description": "A dice game built with react.js.",
       "image": "example",
@@ -10,7 +28,7 @@
       "stack": ["react.js", "typescript"]
     },
     {
-      "number": "Project 2",
+      "number": "Project 4",
       "title": "Quiz Js",
       "description": "A quiz app built with vanilla javascript.",
       "image": "example",

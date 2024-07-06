@@ -11,7 +11,9 @@ export default function Profile() {
           <h1 className="name">Matteo LEDEE.</h1>
           <h1 className="slogan">I build for the web.</h1>
           <p className="expertise">
-            I’m a developper Full Stack with experience in flutter dev & micro-saas. Passionate about building modular, scalable and  web experiences.
+            I’m a full stack developper specializing in web and mobile
+            development. Passionate about building modular, scalable and web
+            experiences.
           </p>
           <div className="buttons">
             <a
@@ -29,13 +31,20 @@ export default function Profile() {
               <button className="button">Github</button>
             </a>
 
-            {/*<a*/}
-            {/*  href="https://www.dropbox.com/s/xsh1bsgqx4plwx4/Resume-Jacob%20Binnie-July6.pdf?dl=0"*/}
-            {/*  target="_blank"*/}
-            {/*  rel="noopener noreferrer"*/}
-            {/*>*/}
-            {/*  <button className="button">Resume</button>*/}
-            {/*</a>*/}
+            <a
+              href="https://read.cv/mat_"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="button">Resume</button>
+            </a>
+            <a
+              href="https://bento.me/mat-led"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="button">Bento</button>
+            </a>
           </div>
         </div>
       </div>
