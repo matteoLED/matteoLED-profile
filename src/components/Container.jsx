@@ -1,26 +1,46 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Profile from "./Profile";
 import "./Container.css";
 import Skills from "./Skills";
-import { useState } from "react";
 
 export default function Container() {
   const [currentMouse, setCurrentMouse] = useState({ x: 0, y: 0 });
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 700);
 
-  document.addEventListener("mousemove", (e) => {
-    handleMouseOver(e);
-  });
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 700);
+    };
 
-  function handleMouseOver(e) {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 40;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 40;
-    setCurrentMouse({ x: xAxis, y: yAxis });
-  }
+    window.addEventListener("resize", handleResize);
 
-  const rotateStyle = {
-    transform: `rotateY(${currentMouse.x}deg) rotateX(${currentMouse.y}deg)`,
-    transition: "transform ease 0.9s",
-  };
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!isMobile) {
+      const handleMouseMove = (e) => {
+        let xAxis = (window.innerWidth / 2 - e.pageX) / 40;
+        let yAxis = (window.innerHeight / 2 - e.pageY) / 40;
+        setCurrentMouse({ x: xAxis, y: yAxis });
+      };
+
+      document.addEventListener("mousemove", handleMouseMove);
+
+      return () => {
+        document.removeEventListener("mousemove", handleMouseMove);
+      };
+    }
+  }, [isMobile]);
+
+  const rotateStyle = isMobile
+    ? {}
+    : {
+        transform: `rotateY(${currentMouse.x}deg) rotateX(${currentMouse.y}deg)`,
+        transition: "transform ease 0.9s",
+      };
 
   return (
     <div className="container">
