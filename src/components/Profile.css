@@ -30,7 +30,6 @@ h1 {
 .slogan {
     margin-bottom: 0px;
     color: rgba(0, 0, 0, 0.492);
-
     margin-top: 0px;
 }
 
@@ -88,12 +87,18 @@ h1 {
 @media only screen and (max-width: 700px) {
     .profile {
         flex-direction: column;
-    }
-    .headshot {
-        display: none;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
     }
     .rightDiv {
-        display: none;
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .headshot {
+        display: block;
+        width: 150px;
     }
     .expertise {
         max-width: 100%;

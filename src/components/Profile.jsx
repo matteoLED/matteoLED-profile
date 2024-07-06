@@ -30,7 +30,6 @@ export default function Profile() {
             >
               <button className="button">Github</button>
             </a>
-
             <a
               href="https://read.cv/mat_"
               target="_blank"
@@ -49,7 +48,7 @@ export default function Profile() {
         </div>
       </div>
       <div className="rightDiv">
-        <img src={Photo} alt="headshot" className="headshot"></img>
+        <img src={Photo} alt="headshot" className="headshot" />
       </div>
     </div>
   );
