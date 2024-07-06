@@ -11,7 +11,7 @@ export default function Profile() {
           <h1 className="name">Matteo LEDEE.</h1>
           <h1 className="slogan">I build for the web.</h1>
           <p className="expertise">
-            I’m a full stack developper specializing in web and mobile
+            I’m a full stack developer specializing in web and mobile
             development. Passionate about building modular, scalable and web
             experiences.
           </p>
