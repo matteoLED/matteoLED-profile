@@ -1,5 +1,12 @@
 {
-  "proficient": ["typescript", "javascript", "mongodb", "flutter"],
+  "proficient": [
+    "typescript",
+    "javascript",
+    "mongodb",
+    "flutter",
+    "react",
+    "rabbitmq"
+  ],
   "experience": ["agile", "node.js", "python", "next.js", "go", "rust"],
   "perfect_stack": ["flutter", "typescript", "firebase"],
   "bonus": ["just work with passion"]

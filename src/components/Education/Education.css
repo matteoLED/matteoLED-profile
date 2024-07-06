@@ -1,0 +1,84 @@
+.education-exp {
+    padding: 50px;
+    text-align: left;
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 50px 50px 50px 50px;
+    margin: 25px 0px 25px 0px;
+    border: 2px solid rgba(245, 245, 245, 0.11);
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 690px;
+}
+
+@media only screen and (max-width: 600px) {
+    .education-exp {
+        width: 100%; /* Utilisez toute la largeur de l'écran */
+        padding: 20px;
+        margin: 10px 0;
+    }
+
+    .education-exp h2 {
+        font-size: 24px;
+    }
+
+    .education-exp h3 {
+        font-size: 20px;
+    }
+
+    .education-exp h4 {
+        font-size: 18px;
+    }
+
+    .education-exp p,
+    .education-exp li {
+        font-size: 16px;
+    }
+
+    .education-exp ul {
+        padding-left: 20px;
+    }
+}
+
+.education-exp h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgba(245, 245, 245, 0.517);
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.experience h4 {
+    font-size: 20px;
+    color: #4776e6;
+}
+
+.experience .date {
+    font-size: 16px;
+    color: #666;
+}
+
+.experience p {
+    font-size: 18px;
+    color: whitesmoke;
+    line-height: 1.6;
+}
+
+.experience ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.experience li {
+    font-size: 18px;
+    color: whitesmoke;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}

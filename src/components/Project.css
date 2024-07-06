@@ -9,13 +9,6 @@
     border-radius: 10px;
 }
 
-.description {
-    text-align: left;
-    color: whitesmoke;
-    font-weight: 600;
-    font-size: 15px;
-}
-
 .titleAndStack {
     display: flex;
     width: 100%;
@@ -24,9 +17,32 @@
     color: rgba(245, 245, 245, 0.517);
 }
 
+.title {
+    color: whitesmoke;
+    margin-bottom: 0px;
+    text-align: left;
+    min-height: 20px;
+}
+
+.description {
+    text-align: left;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 15px;
+    min-height: 30px;
+}
+
 .stack {
     display: flex;
     gap: 10px;
+}
+
+.buttonDiv {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
 }
 
 .projectButton {
@@ -38,24 +54,9 @@
     border-color: black;
 }
 
-.title {
-    color: whitesmoke;
-    margin-bottom: 0px;
-    text-align: left;
-}
-
-.buttonDiv {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-}
-
 .ghlogo {
     height: 25px;
-    margin-top: 5px;
+    margin-top: 10px;
     transition: transform ease 0.5s;
 }
 

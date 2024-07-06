@@ -8,8 +8,8 @@ const Project = ({ item }) => {
       <div className="titleAndStack">
         <h4>{item.number}</h4>
         <div className="stack">
-          {item.stack.map((item) => (
-            <h6>{item}</h6>
+          {item.stack.map((tech, index) => (
+            <h6 key={index}>{tech}</h6>
           ))}
         </div>
       </div>

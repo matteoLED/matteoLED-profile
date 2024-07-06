@@ -31,13 +31,6 @@ export default function Profile() {
               <button className="button">Github</button>
             </a>
             <a
-              href="https://read.cv/mat_"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="button">Resume</button>
-            </a>
-            <a
               href="https://bento.me/mat-led"
               target="_blank"
               rel="noopener noreferrer"
