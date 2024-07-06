@@ -15,6 +15,13 @@
 
 @media only screen and (max-width: 600px) {
     .projectContainer {
+        display: grid;
+        grid-template-columns: 1fr;
         margin-top: 30px;
+        gap: 10px;
+    }
+
+    .notable {
+        grid-column: span 1;
     }
 }
