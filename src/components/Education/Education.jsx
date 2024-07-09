@@ -4,7 +4,7 @@ import "../Education/Education.css";
 const education = [
   {
     company: "Hetic",
-    role: "Designer developer of digital solutions",
+    role: "Bachelor Développeur Web",
     date: "October 2023 - Present",
     description: [],
   },
