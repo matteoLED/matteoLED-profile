@@ -31,6 +31,13 @@ export default function Profile() {
               <button className="button">Github</button>
             </a>
             <a
+              href="https://soapy-attention-ce1.notion.site/Matteo-LEDEE-820e50d0be5b4f518d89f5d8bce9b0d7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="button">Resume</button>
+            </a>
+            <a
               href="https://bento.me/mat-led"
               target="_blank"
               rel="noopener noreferrer"
